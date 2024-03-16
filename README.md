@@ -76,5 +76,3 @@ zsh-5.9_3
 # Install
 
 Install all packages, clone the repository to ~, cd into the directory and use "stow ."
-# void-dots
-# void-dots

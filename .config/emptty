@@ -1,7 +1,2 @@
-#!/bin/sh
-
-export DEFAULT_USER=void6oof
-
-Name=Custom Optional Name
 Exec=/usr/bin/sway
 Environment=wayland

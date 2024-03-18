@@ -9,14 +9,12 @@ titlebar_border_thickness 0
 titlebar_padding 0
 gaps inner 5
 
-# Sway autoexec
-set $schema "org.gnome.desktop.interface"
+set $gnome-schema org.gnome.desktop.interface
 
 exec_always {
-    gsettings set $schema gtk-theme Adwaita-dark
-    gsettings set $schema icon-theme Adwaita
-    gsettings set $schema cursor-theme Yaru
-    gsettings set $schema gtk-application-prefer-dark-theme true
+    gsettings set $gnome-schema gtk-theme 'Catppuccin-Frappe-Standard-Lavender-Dark'
+    gsettings set $gnome-schema icon-theme 'Adwaita'
+    gsettings set $gnome-schema cursor-theme 'Adwaita'
 }
 
 ### Variables

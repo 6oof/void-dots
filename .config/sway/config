@@ -16,6 +16,10 @@ exec_always {
     gsettings set $gnome-schema icon-theme 'Adwaita'
     gsettings set $gnome-schema cursor-theme 'Adwaita'
     blueman-applet
+    ~/dell-bios-fan-control
+    cpupower frequency-set --governor performance
+    i8kmon
+    dunst
 }
 
 ### Variables

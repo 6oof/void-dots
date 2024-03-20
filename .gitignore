@@ -1,2 +1,8 @@
 .config/lazygit
 .config/gh
+.config/glib-2.0
+.config/htop
+.config/nvm
+.config/obs-studio
+.config/pulse
+pavucontrol.ini

@@ -1,2 +1,2 @@
-Exec=sway
+Exec=dbus-run-session sway
 Environment=wayland

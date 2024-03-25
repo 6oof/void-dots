@@ -4,9 +4,8 @@
 #
 # Read `man 5 sway` for a complete reference.
 
-font pango:monospace 0
-titlebar_border_thickness 0
-titlebar_padding 0
+font pango:monospace 14
+default_border none
 gaps inner 5
 
 set $gnome-schema org.gnome.desktop.interface

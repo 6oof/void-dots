@@ -19,7 +19,6 @@ exec_always {
     cpupower frequency-set --governor performance
     i8kmon
     dunst
-    wireplumber
     pipewire
 }
 

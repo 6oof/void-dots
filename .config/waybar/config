@@ -3,9 +3,14 @@
     "spacing":0 , // Gaps between modules (4px)
     "modules-left": ["sway/workspaces", "sway/mode","sway/window", "sway/scratchpad", "custom/media"],
     "modules-center": [],
-    "modules-right": ["pulseaudio", "network", "cpu", "memory", "battery", "battery#bat2", "clock", "tray"],
+    "modules-right": ["pulseaudio", "network", "cpu", "memory", "battery", "battery#bat2", "clock", "custom/power","tray" ],
        "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
+    },
+"custom/power": {
+        "format": "⏻",
+        "tooltip": false,
+        "on-click": "~/void-dots/powermenu.sh"
     },
     "sway/scratchpad": {
         "format": "{icon} {count}",
